@@ -1,0 +1,48 @@
+@keyframes  slideinleft {
+    from{
+        margin-left: -100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+@keyframes slideinright {
+    from{
+        margin-right: -100%;
+    }
+
+    to {
+        margin-right: 0%;
+    }
+}
+
+.imgslideleft {
+    animation-name: slideinleft;
+    animation-duration: 1.5s;
+    float: left;
+    margin-top: 10px;
+}
+
+.imgslideright {
+    animation-name: slideinright;
+    animation-duration: 1.5s;
+    float: right;
+    margin-top: 10px;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadetext {
+    animation: fadein;
+    animation-duration: 3s;
+}

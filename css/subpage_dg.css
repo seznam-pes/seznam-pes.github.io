@@ -1,0 +1,75 @@
+p {
+    text-align: center;
+    margin-left: 15px;
+}
+
+p.info {
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 60px;
+}
+
+h3 {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+img {
+    padding-bottom: 20px;
+}
+
+.releasedate {
+    font-size: large;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: -25px;
+}
+
+button.tracklist {
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    outline-color: white;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+    display: inline;
+}
+
+.hiddentracklist {
+    display: none;
+}
+
+p.trackname {
+    text-align: left;
+    font-size: larger;
+    display: inline-flex;
+}
+
+p.tracktime {
+    text-align: right;
+    font-size: larger;
+    display: inline-flex;
+    margin-left: 70%;
+}
+
+th.tracklist-header {
+    font-weight: bold;
+}
+
+table {
+    background-color: transparent;
+    border: 1px solid white;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+}
+
+table,th,td {
+    padding: 10px;
+}

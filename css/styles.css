@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(28, 29, 44);
+    font-family: "Montserrat",sans-serif;
+    color:white;
+}
+
+h1 {
+    font-size: x-large;
+    margin-right: 50px;
+    margin-left: 30px;
+    align: left;
+    display: inline-flex;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: transparent;
+    transition: 0.3s;
+    color: rgb(134, 0, 0);
+}
+
+a:active {
+    color: rgb(134, 0, 0);
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: transparent;
+}
+
+h2 {
+    font-size: large;
+    align: right;
+    display: inline-flex;
+    gap: 40px;
+    margin-left: 5%;
+}
+
+hr.divide {
+    border-color:rgb(134, 0, 0);
+    border-width: 3px;
+}
+
+.end {
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+p {
+    font-size: medium;
+}
