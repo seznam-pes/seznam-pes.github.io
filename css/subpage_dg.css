@@ -37,7 +37,8 @@ button.tracklist {
     font-size: larger;
     text-align: center;
     padding: 10px;
-    display: inline;
+    display: flex;
+    justify-content: center;
 }
 
 .hiddentracklist {
