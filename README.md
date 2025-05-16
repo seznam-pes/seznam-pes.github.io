@@ -17,10 +17,3 @@
 
 ## 🔗 Odkaz na stránku
 ### https://seznam-pes.github.io
-
-<br>
-
-## ✅ Co ještě udělat:
-- zarovnat tracklist button na střed
-- čerpat obrázky ne z wikipedie ale z local složek
-- vymyslet ještě 6 podstránek
