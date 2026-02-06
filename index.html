@@ -31,7 +31,7 @@ function zmizniDoPice() {
 function sendCode() {
     const inputKlic = document.getElementsByName('klic')[0].value;
     const spravnaOdpoved = "odpoved{7Qf9A2xM8KpD4Z6R3N}";
-    if (inputKlic = spravnaOdpoved.includes("7Qf9A2xM8KpD4Z6R3N")) {
+    if (inputKlic.includes("7Qf9A2xM8KpD4Z6R3N")) {
         alert("Gratuluji, získal jsi " + body + " body! 🥳");
     } else {
         alert("❌ Bohužel, špatná odpověď. ☹️");
@@ -75,4 +75,5 @@ function showHint2() {
 </body>
 
 </html>
+
 
